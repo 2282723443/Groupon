@@ -1,0 +1,23 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_comer_guide_fg_4"
+    tools:context="com.wangwei.groupon.fragment.LastFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+ <Button
+     android:id="@+id/button_fragment_open"
+     android:text="立即开启"
+     android:textColor="#ffffff"
+     android:background="@drawable/btn_weight_normal"
+     android:layout_width="150dp"
+     android:textSize="18sp"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="31dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

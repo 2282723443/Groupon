@@ -1,0 +1,23 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_comer_guide_fg_1"
+    tools:context="com.wangwei.groupon.fragment.FirstFragment">
+
+    <Button
+        android:onClick="skipFrist"
+        android:id="@+id/button__fragment_skip1"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:drawableRight="@drawable/detail_icon_arrow"
+        android:text="跳过"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="19dp" />
+
+</RelativeLayout>
